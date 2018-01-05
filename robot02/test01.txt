@@ -9,3 +9,6 @@ test002
     Open Browser    http://www.jd.com    chrome
     Sleep    3
     Close All Browsers
+
+test003
+    log    fuck
