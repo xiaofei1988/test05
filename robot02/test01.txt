@@ -1,0 +1,11 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+test001
+    log    hello
+
+test002
+    Open Browser    http://www.jd.com    chrome
+    Sleep    3
+    Close All Browsers
